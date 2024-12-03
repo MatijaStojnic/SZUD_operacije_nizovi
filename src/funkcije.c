@@ -19,3 +19,23 @@ void ispisniza(int niz[], int n)
     }
     printf("\n");
 }
+void max_min_prosek(int niz[],int n)
+{
+    int max=niz[0];
+    int min=0;
+    int suma=0;
+    for(int i=0;i<n;i++)
+    {
+        if(max<niz[i])
+        {
+            max=niz[i];
+        }
+        if(min>niz[i])
+        {
+            min=niz[i];
+        }
+        suma+=niz[i];
+    }
+    float prosek=(float)suma/n;
+    printf("\nNajveci element je %d, najmanji %d, a prosek niza %.2f\n",max,min,prosek);
+}
