@@ -6,5 +6,7 @@ int main()
     printf("=================================\n");
     printf("Pocetna verzija projekta bez ikakvih funkcija.\n");
     printf("=================================\n");
+    unosniza(niz,&n);
+    ispisniza(niz,n);
     return 0;
 }
