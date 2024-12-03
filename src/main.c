@@ -6,5 +6,10 @@ int main()
     printf("=================================\n");
     printf("Pocetna verzija projekta bez ikakvih funkcija.\n");
     printf("=================================\n");
+    unosniza(niz,&n);
+    ispisniza(niz,n);
+    max_min_prosek(niz,n);
+    sortiranje(niz,n);
+    brojanjePonavljanja(niz,n);
     return 0;
 }
