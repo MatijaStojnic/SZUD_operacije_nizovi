@@ -39,3 +39,23 @@ void max_min_prosek(int niz[],int n)
     float prosek=(float)suma/n;
     printf("\nNajveci element je %d, najmanji %d, a prosek niza %.2f\n",max,min,prosek);
 }
+void sortiranje(int niz[],int n)
+{
+    printf("Sortirani niz: ");
+    for(int i=0;i<n;i++)
+    {
+        for(int j=i+1;j<n;j++)
+        {
+            if(niz[i]>niz[j])
+            {
+                int z=niz[i];
+                niz[i]=niz[j];
+                niz[j]=z;
+            }
+        }
+    }
+    for(int i=0;i<n;i++)
+    {
+        printf("%d ",niz[i]);
+    }
+}
