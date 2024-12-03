@@ -59,3 +59,18 @@ void sortiranje(int niz[],int n)
         printf("%d ",niz[i]);
     }
 }
+void brojanjePonavljanja(int niz[], int n)
+{
+    int brojac=0,element=0;
+    printf("\n\nUnesite broj koji zelite da prebrojite u nizu: ");
+    scanf("%d", &element);
+    for(int i=0;i<n;i++)
+    {
+        if(niz[i]==element)
+        {
+            brojac++;
+        }
+    }
+    printf("Broj ponavljanja broja %d u nizu je: %d\n", element, brojac);
+
+}
