@@ -8,5 +8,6 @@ int main()
     printf("=================================\n");
     unosniza(niz,&n);
     ispisniza(niz,n);
+    max_min_prosek(niz,n);
     return 0;
 }
