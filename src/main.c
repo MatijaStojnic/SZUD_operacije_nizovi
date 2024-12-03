@@ -10,5 +10,6 @@ int main()
     ispisniza(niz,n);
     max_min_prosek(niz,n);
     sortiranje(niz,n);
+    brojanjePonavljanja(niz,n);
     return 0;
 }
